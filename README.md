@@ -1,9 +1,8 @@
 # Learning-Apache-Airflow-with-simple-examples
 
-
-Apache Airflow is a powerful platform designed for workflow and data pipeline management. It enables users to define workflows as directed acyclic graphs (DAGs) and effectively manage their execution. Within Airflow, several key concepts and components contribute to the functionality of DAGs:
-
 <img src="workflow.png">
+
+Apache Airflow is a powerful platform designed for workflow (like photo) and data pipeline management. It enables users to define workflows as directed acyclic graphs (DAGs) and effectively manage their execution. Within Airflow, several key concepts and components contribute to the functionality of DAGs:
 
 1.Scheduling: Scheduling involves determining the timing and execution details of tasks within a DAG. It defines when and how each task should be executed based on specified intervals or triggers.
 
