@@ -7,7 +7,7 @@
 
 Apache Airflow is a powerful platform designed for workflow (like photo) and data pipeline management. It enables users to define workflows as directed acyclic graphs (DAGs) and effectively manage their execution. Within Airflow, several key concepts and components contribute to the functionality of DAGs:
 
-1.Scheduling: Scheduling involves determining the timing and execution details of tasks within a DAG. It defines when and how each task should be executed based on specified intervals or triggers.
+1. Scheduling: Scheduling involves determining the timing and execution details of tasks within a DAG. It defines when and how each task should be executed based on specified intervals or triggers.
 
 2. Catchup: Catchup is a parameter that determines whether Airflow should create DAG runs for all schedule intervals from the start date until the current date (catchup=True) or schedule runs only from the current date (catchup=False).
 
