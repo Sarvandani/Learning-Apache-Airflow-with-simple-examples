@@ -11,7 +11,7 @@ A simple code of DAG can be seen [here](https://github.com/Sarvandani/Learning-A
 
 4. Task: Each task within a DAG represents a distinct unit of work that needs to be executed. Tasks can be executed independently or in a specific order, depending on their defined dependencies.
 
-5. Operator: Operators are used to define tasks within a DAG. Examples of operators include BashOperator, PythonOperator, and MySqlOperator. These operators encapsulate the logic and functionality of the tasks they represent. Now we have added the task, operator and task dependency to the code. You can also download it [here](https://github.com/Sarvandani/Learning-Apache-Airflow-with-simple-examples/blob/main/task%2Boperators.py).
+5. Operator: Operators are used to define tasks within a DAG. Examples of operators include BashOperator, PythonOperator, and MySqlOperator. These operators encapsulate the logic and functionality of the tasks they represent. Now we have added the task, operator and task dependency to the code. You can download it [here](https://github.com/Sarvandani/Learning-Apache-Airflow-with-simple-examples/blob/main/task%2Boperators.py).
 
 6. Task Dependency: Task dependencies define the relationship between tasks within a DAG. They specify the order in which tasks should be executed and are typically defined using the >> symbol. Task dependencies can also be defined using the set_downstream() and set_upstream() methods. 
 
